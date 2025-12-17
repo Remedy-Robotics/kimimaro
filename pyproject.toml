@@ -54,6 +54,7 @@ classifiers = [
 
 dependencies = [
     "click",
+    "crackle-codec",
     "connected-components-3d>=3.16.0",
     "dijkstra3d>=1.15.0",
     "fill-voids>=2.0.0",
