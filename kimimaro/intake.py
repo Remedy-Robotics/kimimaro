@@ -506,6 +506,7 @@ def skeletonize_subset(
       if skeleton.empty():
         continue
 
+      skeleton.vertices = skeleton.vertices.astype(np.float64, copy=False)
       skeleton.vertices += roi.minpt
 
       orig_segid = remapping[segid]
